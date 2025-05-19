@@ -1,7 +1,7 @@
 import { Routes } from '@angular/router';
-import { HomeComponent } from './home/home.component'
+import { HomeComponent } from './features/home/home.component'
 import { DataListComponent } from "./data-list/data-list.component"
-import { ExtchangedataComponent } from "./extchangedata/extchangedata.component"
+import { ExtchangedataComponent } from "./features/extchangedata/extchangedata.component"
 
 export const routes: Routes = [
     { path: '', component: HomeComponent },

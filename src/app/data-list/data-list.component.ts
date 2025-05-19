@@ -1,5 +1,5 @@
 import { Component , OnInit} from '@angular/core';
-import { ApiService, User } from '../services/api.service';
+import { ApiService, User } from '../core/services/api.service';
 import { NgFor,NgIf } from '@angular/common';
 
 @Component({  
